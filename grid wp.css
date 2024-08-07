@@ -1,0 +1,261 @@
+.flex{
+    background-image: url(./old.jpg);
+    background-repeat: no-repeat;
+    size:cover;
+    position: center;
+    overflow: hidden;
+    background-attachment: fixed;
+    height: 55vh;
+    width: 100vw;
+}  
+.corner{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-weight: bold;
+    justify-content: flex-end;
+    margin-right:20px;
+
+
+} 
+.first{
+    margin: 10px 10px;
+}
+.first:hover{
+    background-color: white;
+    color: black;
+}
+.log{
+    margin-top: 18px;
+}
+.create{
+    border:2px solid white;
+    padding: 5px 10px;
+    text-align: center;
+}
+.zomato{
+    position: absolute;
+    top:70px;
+    left:535px;
+}
+.second{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 180%;
+    margin-top: 130px;
+    margin-left: 240px;
+    font-weight: bold;
+}
+.last{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 0;
+}
+.three{
+    margin:0 5px;
+    font-size: large;
+}
+.los{
+    background-color: white;
+    padding: 10px 40px 10px 20px;
+    border-radius: 2px;
+}
+.cuisines{
+    background-color: white;
+    padding: 10px 230px 10px 20px;
+    border-radius: 2px;
+    color: gray;
+}
+.search{
+    background-color: red;
+    padding:  10px 35px 10px 35px;
+    border-radius: 2px;
+    color: white;
+}
+.top{
+    color: gray;
+    font-size: large;
+}
+.whole{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto  ;
+    gap:5px;
+    margin: 10px;
+
+}
+.container1{
+    display: grid;
+    grid-template-columns: auto  auto auto;
+    gap:5px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px  0 5px gray;
+
+}
+.img1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.text1{
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+.head1{
+    color: black;
+}
+.container2{
+    display: grid;
+    grid-template-columns: auto  auto auto;
+    gap:5px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px  0 5px gray;
+
+   
+}
+.img2{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.text2{
+    grid-column: 2/4;
+    grid-row:1/2;
+}
+.container3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:5px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px  0 5px gray;
+
+   
+}
+.img3{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.text3{
+    grid-column: 2/4;
+    grid-row:1/2;
+}
+.container4{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:5px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px  0 5px gray;
+
+
+}
+.img4{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.text4{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.container5{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap:5px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px  0 5px gray;
+
+
+}
+.img5{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.text5{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.container6{
+    display: grid;
+    gap:5px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px  0 5px gray;
+
+    /* border: 3px solid black; */
+
+}
+.img6{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+h3{
+    color: red;
+    margin-left: 70px;
+    margin-top: 0;
+}
+@media  screen and (max-width:480px){
+.zomato{
+    position: absolute;
+    top:60px;
+    left:165px;
+}
+.second{
+    margin-left: 15px;
+    font-size: large;
+}
+.last{
+    margin-left: 3px;
+    flex-direction: column;
+    align-items: center;
+}
+.three{
+   font-size:80%;
+
+}
+.los{
+    padding: 5px 15px 5px 10px ;
+}
+.cuisines{
+    padding: 5px 35px 5px 10px;
+    margin-top: 10px;
+    
+}
+.search{
+    padding: 3px 5px 3px 5px;
+    margin-top: 10px;
+}
+.whole{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap:5px;
+}
+.container1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.container2{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.container3{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.container4{
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.container5{
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+.container6{
+    grid-column: 1/2;
+    grid-row: 6/7;
+}
+}
+    
+
